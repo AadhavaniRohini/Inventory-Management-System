@@ -100,7 +100,7 @@ Create a file named `.env` inside the `backend` directory:
 
 ```env
 PORT=5000
-MONGO_URI=mongodb://127.0.0.1:27017/product
+MONGO_URI=your_mongodb_connection_string
 ```
 
 `PORT` controls the backend port. If it is not provided, the server uses port `5000`. `MONGO_URI` is the MongoDB connection string used by Mongoose.
